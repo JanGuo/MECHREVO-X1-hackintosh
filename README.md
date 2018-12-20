@@ -1,4 +1,5 @@
-##MECHREVO X1 hackintosh EFI folder
+MECHREVO X1 hackintosh EFI folder
+=================================
 
 Done on a MECHREVO X1 modified with a BCM94352Z Wi-Fi card
 
