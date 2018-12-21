@@ -8,10 +8,15 @@ What works:
 * Ethernet
 * Sleep
 * Mouse
+* Keyboard
+* Trackpad
+* Brightness adjustment
 
 What doesn't work:
 * Sound
-* Trackpad
-* Keyboard (internal)
 * NTFS
+* USB 3.0
+
+To do:
+* create custom SSDT for USB ports
 
