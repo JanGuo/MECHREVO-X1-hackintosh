@@ -14,8 +14,6 @@
 			<dict>
 				<key>#Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
-				<key>FixHeaders</key>
-				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -206,6 +204,8 @@
 				<string>xh_rvp10</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -382,13 +382,17 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>clover-theme-minimal</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -495,8 +499,6 @@
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.AirPort.Brcm4360</string>
 				<key>Replace</key>
