@@ -268,7 +268,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-v dart=0 -disablegfxfirmware</string>
+		<string>nv_disable=1 dart=0 -cdfon -disablegfxfirmware -v -igfxnohdmi</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -385,8 +385,12 @@
 		</array>
 		<key>Audio</key>
 		<dict>
+			<key>AFGLowPowerState</key>
+			<true/>
 			<key>Inject</key>
-			<integer>0</integer>
+			<integer>30</integer>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -427,7 +431,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -446,14 +450,12 @@
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
-			<key>Intel</key>
 			<true/>
+			<key>Intel</key>
+			<false/>
 			<key>NVidia</key>
 			<true/>
 		</dict>
-		<key>ig-platform-id</key>
-		<string>0x191b0000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -633,12 +635,16 @@
 	<dict>
 		<key>BiosVersion</key>
 		<string>IM142.88Z.0123.B00.1708211454</string>
+		<key>BoardSerialNumber</key>
+		<string>D25313207GUF8YLADAD123</string>
 		<key>ProductName</key>
 		<string>iMac14,2</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for Skylake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02N3E73FLHH</string>
+		<string>D25KHMYMF8JC</string>
+		<key>SmUUID</key>
+		<string>50422C9C-7034-4595-8FF0-AEFE2ADAF7F9</string>
 		<key>Trust</key>
 		<false/>
 	</dict>

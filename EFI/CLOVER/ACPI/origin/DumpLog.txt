@@ -1,0 +1,141 @@
+7:467  2:529  Found UEFI Acpi 2.0 RSDP at 6F68C000
+7:467  0:000  Saving ACPI tables from RSDP 6F68C000 to EFI\CLOVER\ACPI\origin ...
+7:467  0:000   6F68C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:490  0:022    (Xsdt: 6F68C0B8, Rsdt: 6F68C028)
+7:490  0:000    6F68C0B8: 'XSDT', 'TONGFANG', Rev: 1, Len: 244 -> XSDT.aml
+7:514  0:023    6F68C028: 'RSDT', 'TONGFANG', Rev: 1, Len: 140 -> RSDT.aml
+7:534  0:019    Tables in Xsdt: 26
+7:534  0:000    0. 6F6B0708: 'FACP', 'TONGFANG', Rev: 6, Len: 276 -> FACP.aml
+7:566  0:032        (Dsdt: 6F68C240, Facs: 6FAF4D80, XDsdt: 6F68C240, XFacs: 0)
+7:566  0:000        6F68C240: 'DSDT', 'TONGFANG', Rev: 2, Len: 148676 -> DSDT.aml
+7:629  0:062        6FAF4D80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:653  0:023    1. 6F6B0820: 'APIC', 'TONGFANG', Rev: 3, Len: 188 -> APIC.aml
+7:673  0:019    2. 6F6B08E0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68 -> FPDT.aml
+7:693  0:019    3. 6F6B0928: 'FIDT', 'TONGFANG', Rev: 1, Len: 156 -> FIDT.aml
+7:714  0:021    4. 6F6B09C8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60 -> MCFG.aml
+7:735  0:020    5. 6F6B0A08: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0.aml
+7:755  0:020    6. 6F6B0D68: 'MSDM', 'TONGFANG', Rev: 3, Len: 85 -> MSDM.aml
+7:775  0:019    7. 6F6B0DC0: 'SLIC', 'TONGFANG', Rev: 1, Len: 374 -> SLIC.aml
+7:799  0:023    8. 6F6B0F38: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12662 -> SSDT-1.aml
+7:820  0:021    9. 6F6B40B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 10551 -> SSDT-2.aml
+7:845  0:024    10. 6F6B69E8: 'HPET', 'KBL', Rev: 1, Len: 56 -> HPET.aml
+7:866  0:020    11. 6F6B6A20: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2282 -> SSDT-3.aml
+7:889  0:022    12. 6F6B7310: 'UEFI', 'TONGFANG', Rev: 1, Len: 66 -> UEFI.aml
+7:911  0:022    13. 6F6B7358: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+ Found hidden SSDT 7 pcs
+7:911  0:000        * 6F624318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1617  53 53 44 54 51 06 00 00 02 B5 50 6D 52 65 66 00 Internal length = 1617 -> SSDT-5x.aml
+7:932  0:021        * 6EFE5018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-6x.aml
+7:954  0:021        * 6EFE4018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-7x.aml
+7:977  0:023        * 6EFE4D18: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-8x.aml
+8:000  0:022        * 6BFCA698: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 AE 50 6D 52 65 66 00 Internal length = 277 -> SSDT-9x.aml
+8:021  0:020        * 6BFC4D18: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-10x.aml
+8:042  0:021        * 6BFC1D18: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 3C 50 6D 52 65 66 00 Internal length = 420 -> SSDT-11x.aml
+8:064  0:021   -> SSDT-4.aml
+8:085  0:021    14. 6F6B8238: 'LPIT', 'KBL', Rev: 1, Len: 148 -> LPIT.aml
+8:105  0:019    15. 6F6B82D0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-12.aml
+8:124  0:018    16. 6F6B8418: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-13.aml
+8:144  0:019    17. 6F6B86B8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-14.aml
+8:163  0:019    18. 6F6B8BD0: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+8:183  0:019    19. 6F6B8C08: 'DBG2', '', Rev: 0, Len: 97 -> DBG2.aml
+8:201  0:018    20. 6F6B8C70: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-15.aml
+8:221  0:019    21. 6F6B8D20: 'DMAR', 'KBL ', Rev: 1, Len: 168 -> DMAR.aml
+8:239  0:017    22. 6F6B8DC8: 'BGRT', 'TONGFANG', Rev: 1, Len: 56 -> BGRT.aml
+8:258  0:019    23. 6F6B8E00: 'TPM2', 'TONGFANG', Rev: 3, Len: 52 -> TPM2.aml
+8:277  0:018    24. 6F6B8E38: 'SSDT', 'OptTabl', Rev: 1, Len: 7643 -> SSDT-16.aml
+8:298  0:020    25. 6F6BAC18: 'WSMT', 'TONGFANG', Rev: 1, Len: 40 -> WSMT.aml
+8:318  0:019    Tables in Rsdt: 26
+8:318  0:000    0. 6F68C1B8: 'FACP', 'TONGFANG', Rev: 2, Len: 132 -> RSDT-FACP.aml
+8:370  0:051        (Dsdt: 6F68C240, Facs: 6FAF4D40)
+8:370  0:000        6F68C240: 'DSDT', 'TONGFANG', Rev: 2, Len: 148676
+8:372  0:002        6FAF4D40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+8:392  0:019    1. 6F6B0820: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+8:392  0:000    2. 6F6B08E0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+8:392  0:000    3. 6F6B0928: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+8:392  0:000    4. 6F6B09C8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+8:392  0:000    5. 6F6B0A08: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+8:392  0:000    6. 6F6B0D68: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+8:392  0:000    7. 6F6B0DC0: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+8:392  0:000    8. 6F6B0F38: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12662
+8:392  0:000    9. 6F6B40B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 10551
+8:392  0:000    10. 6F6B69E8: 'HPET', 'KBL', Rev: 1, Len: 56
+8:392  0:000    11. 6F6B6A20: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2282
+8:392  0:000    12. 6F6B7310: 'UEFI', 'TONGFANG', Rev: 1, Len: 66
+8:392  0:000    13. 6F6B7358: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:392  0:000    14. 6F6B8238: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:392  0:000    15. 6F6B82D0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+8:392  0:000    16. 6F6B8418: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:392  0:000    17. 6F6B86B8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+8:392  0:000    18. 6F6B8BD0: 'DBGP', '', Rev: 1, Len: 52
+8:392  0:000    19. 6F6B8C08: 'DBG2', '', Rev: 0, Len: 97
+8:392  0:000    20. 6F6B8C70: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:392  0:000    21. 6F6B8D20: 'DMAR', 'KBL ', Rev: 1, Len: 168
+8:392  0:000    22. 6F6B8DC8: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+8:392  0:000    23. 6F6B8E00: 'TPM2', 'TONGFANG', Rev: 3, Len: 52
+8:392  0:000    24. 6F6B8E38: 'SSDT', 'OptTabl', Rev: 1, Len: 7643
+8:392  0:000    25. 6F6BAC18: 'WSMT', 'TONGFANG', Rev: 1, Len: 40
+8:392  0:000  Found UEFI Acpi 1.0 RSDP at 6F68C000
+8:392  0:000  Printing ACPI tables from RSDP 6F68C000 ...
+8:392  0:000   6F68C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:392  0:000    (Xsdt: 6F68C0B8, Rsdt: 6F68C028)
+8:392  0:000    6F68C0B8: 'XSDT', 'TONGFANG', Rev: 1, Len: 244
+8:392  0:000    6F68C028: 'RSDT', 'TONGFANG', Rev: 1, Len: 140
+8:392  0:000    Tables in Xsdt: 26
+8:392  0:000    0. 6F6B0708: 'FACP', 'TONGFANG', Rev: 6, Len: 276
+8:392  0:000        (Dsdt: 6F68C240, Facs: 6FAF4D80, XDsdt: 6F68C240, XFacs: 0)
+8:392  0:000        6F68C240: 'DSDT', 'TONGFANG', Rev: 2, Len: 148676
+8:394  0:002        6FAF4D80: 'FACS', Ver: 2, Len: 64
+8:394  0:000    1. 6F6B0820: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+8:394  0:000    2. 6F6B08E0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+8:394  0:000    3. 6F6B0928: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+8:394  0:000    4. 6F6B09C8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+8:394  0:000    5. 6F6B0A08: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+8:394  0:000    6. 6F6B0D68: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+8:394  0:000    7. 6F6B0DC0: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+8:394  0:000    8. 6F6B0F38: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12662
+8:394  0:000    9. 6F6B40B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 10551
+8:394  0:000    10. 6F6B69E8: 'HPET', 'KBL', Rev: 1, Len: 56
+8:394  0:000    11. 6F6B6A20: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2282
+8:394  0:000    12. 6F6B7310: 'UEFI', 'TONGFANG', Rev: 1, Len: 66
+8:394  0:000    13. 6F6B7358: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:394  0:000    14. 6F6B8238: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:394  0:000    15. 6F6B82D0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+8:394  0:000    16. 6F6B8418: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:394  0:000    17. 6F6B86B8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+8:394  0:000    18. 6F6B8BD0: 'DBGP', '', Rev: 1, Len: 52
+8:394  0:000    19. 6F6B8C08: 'DBG2', '', Rev: 0, Len: 97
+8:394  0:000    20. 6F6B8C70: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:394  0:000    21. 6F6B8D20: 'DMAR', 'KBL ', Rev: 1, Len: 168
+8:394  0:000    22. 6F6B8DC8: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+8:394  0:000    23. 6F6B8E00: 'TPM2', 'TONGFANG', Rev: 3, Len: 52
+8:394  0:000    24. 6F6B8E38: 'SSDT', 'OptTabl', Rev: 1, Len: 7643
+8:394  0:000    25. 6F6BAC18: 'WSMT', 'TONGFANG', Rev: 1, Len: 40
+8:394  0:000    Tables in Rsdt: 26
+8:394  0:000    0. 6F68C1B8: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+8:394  0:000        (Dsdt: 6F68C240, Facs: 6FAF4D40)
+8:394  0:000        6F68C240: 'DSDT', 'TONGFANG', Rev: 2, Len: 148676
+8:396  0:002        6FAF4D40: 'FACS', Ver: 0, Len: 64
+8:396  0:000    1. 6F6B0820: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+8:396  0:000    2. 6F6B08E0: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+8:396  0:000    3. 6F6B0928: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+8:396  0:000    4. 6F6B09C8: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+8:396  0:000    5. 6F6B0A08: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+8:396  0:000    6. 6F6B0D68: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+8:396  0:000    7. 6F6B0DC0: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+8:396  0:000    8. 6F6B0F38: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12662
+8:396  0:000    9. 6F6B40B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 10551
+8:396  0:000    10. 6F6B69E8: 'HPET', 'KBL', Rev: 1, Len: 56
+8:396  0:000    11. 6F6B6A20: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2282
+8:396  0:000    12. 6F6B7310: 'UEFI', 'TONGFANG', Rev: 1, Len: 66
+8:396  0:000    13. 6F6B7358: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:396  0:000    14. 6F6B8238: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:396  0:000    15. 6F6B82D0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+8:396  0:000    16. 6F6B8418: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:396  0:000    17. 6F6B86B8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+8:396  0:000    18. 6F6B8BD0: 'DBGP', '', Rev: 1, Len: 52
+8:396  0:000    19. 6F6B8C08: 'DBG2', '', Rev: 0, Len: 97
+8:396  0:000    20. 6F6B8C70: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:396  0:000    21. 6F6B8D20: 'DMAR', 'KBL ', Rev: 1, Len: 168
+8:396  0:000    22. 6F6B8DC8: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+8:396  0:000    23. 6F6B8E00: 'TPM2', 'TONGFANG', Rev: 3, Len: 52
+8:396  0:000    24. 6F6B8E38: 'SSDT', 'OptTabl', Rev: 1, Len: 7643
+8:396  0:000    25. 6F6BAC18: 'WSMT', 'TONGFANG', Rev: 1, Len: 40
