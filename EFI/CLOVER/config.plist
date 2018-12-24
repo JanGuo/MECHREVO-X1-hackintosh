@@ -270,7 +270,7 @@
 		<key>Arguments</key>
 		<string>nv_disable=1 dart=0 -cdfon -disablegfxfirmware -v -igfxnohdmi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>macOS</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -650,6 +650,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>BacklightLevel</key>
+		<string>0xDAC0</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
